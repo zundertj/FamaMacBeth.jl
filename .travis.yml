@@ -11,4 +11,4 @@ notifications:
     email: false
 after_success:
   - julia -e 'Pkg.add("Coverage"); cd(Pkg.dir("FamaMacBeth")); using Coverage; Coveralls.submit(Coveralls.process_folder()); Codecov.submit(Codecov.process_folder())'
-  - julia -e 'Pkg.add("Documenter"); cd(Pkg.dir("FamaMacBeth")); include(joinpath("docs", "make.jl"))'
+  - julia -e 'Pkg.add("Documenter"); cd(joinpath(Pkg.dir("FamaMacBeth"), "docs")); include("make.jl")'
