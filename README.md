@@ -27,4 +27,8 @@ X = rand(100,3)
 g = repeat(collect(1:10),inner=10)
 response = fmb(X,y,g)
 ```
-You can use the functions `coef`, `stderror` and others to extract the relevant statistics.
+You can use the functions `coef`, `stderror` and others to extract the relevant statistics. The interface follows [https://github.com/JuliaStats/StatsBase.jl](https://github.com/JuliaStats/StatsBase.jl) as much as possible. See the [docs](https://zundertj.github.io/FamaMacBeth.jl/latest) for the full API.
+
+# References
+- Fama, E. F., & MacBeth, J. D. (1973). Risk, return, and equilibrium: Empirical tests. *Journal of political economy*, 81(3), 607-636.
+- Petersen, M. A. (2009). Estimating standard errors in finance panel data sets: Comparing approaches. *The Review of Financial Studies*, 22(1), 435-480.
