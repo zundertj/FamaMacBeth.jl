@@ -10,7 +10,7 @@
 # Installation
 This package is work-in-progress, and is therefore not registered. To install (on Julia 0.7)
 ```
-] clone https://github.com/zundertj/FamaMacBeth.jl
+] add "https://github.com/zundertj/FamaMacBeth.jl"
 ```
 
 # Usage
