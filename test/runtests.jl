@@ -37,5 +37,5 @@ end
     @test all(round.(stderror(m), digits=4) .== [.0234, .0333])
     @test all(round.(tstat(m), digits=2) .== [1.34, 31.06])
     # @test round(adjr2(m),4)==.2078 # this is what Petersen lists, but cannot reproduce
-    @test round(adjr2(m),4)==.2076
+    @test round(adjr2(m);digits=4)==.2076
 end
