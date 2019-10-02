@@ -17,4 +17,4 @@ jobs:
         with:
           version: ${{ matrix.julia-version }}
       - name: Test exercises
-        run: julia --color=yes runtests.jl
+        run: julia --color=yes test/runtests.jl
