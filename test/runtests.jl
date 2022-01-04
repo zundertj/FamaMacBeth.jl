@@ -1,5 +1,5 @@
 using Test
-
+import Downloads
 using ReadStat, DataValues # for the Petersen data set
 
 using FamaMacBeth
@@ -24,7 +24,11 @@ end
 @testset "petersen_dataset" begin
     # download and process data
     file = "https://www.kellogg.northwestern.edu/faculty/petersen/htm/papers/se/test_data.dta"
-    loc = download(file)
+
+    # do not download the file, but use the copy in the test dir, as the download is flaky
+    # loc = Downloads.download(file)
+    loc = joinpath(@__DIR__, "test_data.dta")
+
     data = read_dta(loc)
     firmid = Float64.(get.(data.data[1]))
     year = Float64.(get.(data.data[2]))
