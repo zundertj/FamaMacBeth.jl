@@ -50,7 +50,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: julia-actions/julia-buildpkg@latest
-      - run: julia --project=docs -e 'import Pkg; Pkg.add("Documenter")'
       - uses: julia-actions/julia-docdeploy@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
