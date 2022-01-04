@@ -3,7 +3,6 @@
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
 [![Build status](https://github.com/zundertj/FamaMacBeth.jl/workflows/test/badge.svg)](https://github.com/zundertj/FamaMacBeth.jl/actions?workflow=test)
 [![codecov.io](https://codecov.io/gh/zundertj/FamaMacBeth.jl/branch/master/graphs/badge.svg)](http://codecov.io/github/zundertj/FamaMacBeth.jl?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/zundertj/FamaMacBeth.jl/badge.svg?branch=master)](https://coveralls.io/github/zundertj/FamaMacBeth.jl?branch=master)
 [![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://zundertj.github.io/FamaMacBeth.jl/latest)
 
 # Installation
