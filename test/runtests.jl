@@ -17,6 +17,8 @@ using FamaMacBeth
     @test all(nobs(resp).==10)
     @test size(coef(resp),1) == 3
     @test size(coef(resp),2) == 1 # because we take the mean!
+    @test group(resp) == collect(1:10)
+    @test size(vcov(resp)) == (3, 3)
 end
 
 @testset "petersen_dataset" begin

@@ -3,7 +3,7 @@ module FamaMacBeth
 import StatsBase, StatsBase.coef, StatsBase.stderror
 using Statistics: mean, std, cov
 
-export fmb, coef, stderror, tstat, nobs, predict, residuals, r2, adjr2, group
+export fmb, coef, stderror, vcov, tstat, nobs, predict, residuals, r2, adjr2, group
 
 # response object
 struct FMBResp
