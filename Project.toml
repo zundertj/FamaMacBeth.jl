@@ -1,6 +1,6 @@
 name = "FamaMacBeth"
 uuid = "a379ddc0-9001-11e8-0fe1-85dd08ebdee6"
-authors = ["Jeroen van Zundert <zundertj@gmail.com>"]
+authors = ["Jeroen van Zundert <mail@jeroenvanzundert.nl>"]
 version = "0.1.0"
 
 [deps]
