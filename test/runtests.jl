@@ -1,5 +1,5 @@
 using Test
-import Downloads
+
 using ReadStat, DataValues # for the Petersen data set
 
 using FamaMacBeth
